@@ -115,9 +115,7 @@ weather_bot_project/          <- Your main project folder
 Now, create the Python files inside the weather_bot_team directory using VS Code's file explorer or the touch command in the terminal (e.g., touch weather_bot_team/__init__.py). Populate them with the code provided below.
 
 1. weather_bot_team/__init__.py:
-
 - Purpose: Makes weather_bot_team a Python package and exposes the main agent instance for the ADK Dev UI.
-
 - Content:
 ```python
 # weather_bot_project/weather_bot_team/__init__.py
