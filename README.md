@@ -1,4 +1,4 @@
-# weather-bot-project
+# weather_bot_project
 Local ADK Weather Bot Tutorial (macOS / Terminal / VS Code)
 
 This guide converts the progressive Weather Bot tutorial into a local project structure suitable for running on macOS using Terminal (or VS Code's integrated terminal) and VS Code as your editor. We'll leverage the ADK Dev UI (adk web) and follow best practices.
@@ -112,9 +112,9 @@ weather_bot_project/          <- Your main project folder
 
 **Phase 3: Create Code Files**
 
-Now, create the Python files inside the weather_bot_team directory using VS Code's file explorer or the touch command in the terminal (e.g., touch weather_bot_team/__init__.py). Populate them with the code provided below.
+Now, create the Python files inside the weather_bot_team directory using VS Code's file explorer or the touch command in the terminal (e.g., ```touch weather_bot_team/__init__.py```). Populate them with the code provided below.
 
-1. weather_bot_team/__init__.py:
+1. ```weather_bot_team/__init__.py```:
 - Purpose: Makes weather_bot_team a Python package and exposes the main agent instance for the ADK Dev UI.
 - Content:
 ```python
